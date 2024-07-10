@@ -19,3 +19,8 @@ Foi implementado um sistema de cache distribuído utilizando MongoDB, no qual ca
 Dessa forma, todas as consultas "QUERY" realizadas na segunda chamada são direcionadas ao cache, sem a necessidade de acessar a base de dados transacional do SqlServer no Entity Framework em memória, como exemplificado aqui.
 
 Essa é uma implementação de CQRS, não mais puramente de arquitetura de código, mas sim também de de banco de dados real.
+
+
+## Como rodar??
+Selecione o projeto de docker-compose como startup do projeto e clique em F5 para buildar e rodar.
+
