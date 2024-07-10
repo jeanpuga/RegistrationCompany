@@ -1,0 +1,24 @@
+version: '3.4'
+
+services:
+  application:
+    image: ${DOCKER_REGISTRY-}application
+    container_name: SOLUTION
+    build:
+      context: .
+      dockerfile: src/Application/Dockerfile
+    environment:
+        - MongoSettings__Cache__ConnectionString=mongodb://mongodb:27017
+        - MongoSettings__Cache__Database=DatabaseCache
+        - MongoSettings__Cache__Collection=CollectionCache
+
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+
+volumes:
+  mongodb_data:
