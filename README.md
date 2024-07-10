@@ -1,5 +1,5 @@
 # RegistrationCompany
-Esse projeto exemplo, segue a filosofia de DDD apreentado por Evans E., e a concep;'ao de arquitetura de Vertical Slices de Jimmy Bogard.
+Esse projeto exemplo, segue a filosofia de DDD apreentado por Evans E., e a concepção de arquitetura de Vertical Slices de Jimmy Bogard.
 Aqui apresento exemplo de:
 - Api Minimals
 - Behaviors
@@ -9,6 +9,8 @@ Aqui apresento exemplo de:
 - EF Latest
 - .Net8
 - Testes Unitários
+- Organização src/test
+- Docker e docker-compose
 
 ## Plus
 Foi implementado um sistema de cache distribuído utilizando MongoDB, no qual cada execução de um comando "COMMAND" limpa a tabela de cache para a operação GetAll. Na primeira iteração, essa tabela é recriada completamente. Os resultados individuais (Get Singles) armazenados em cache são atualizados a cada execução do comando subsequente.
