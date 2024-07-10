@@ -1,5 +1,6 @@
 # RegistrationCompany
 Esse projeto exemplo, segue a filosofia de DDD apreentado por Evans E., e a concepção de arquitetura de Vertical Slices de Jimmy Bogard.
+
 Aqui apresento exemplo de:
 - Api Minimals
 - Behaviors
